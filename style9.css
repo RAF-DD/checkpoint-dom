@@ -1,0 +1,133 @@
+.logo
+{ 
+  margin-left: 30px;
+  margin-right:800px;
+}
+
+.shopping
+{ background-color: #65403B;
+  position: fixed;
+  overflow: hidden;
+  display:flex;
+  align-items: center;
+  margin-top: -22px;
+  width: 100%;
+  margin-right: 10px;
+  color: white;
+}
+.butn
+{
+  width: 700px;
+  display:flex;
+  justify-content: center;
+}
+.button {
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.button1 {
+  position: center;
+  width: 300px;
+  background-color: white; 
+  color: black; 
+  border: 2px solid #4CAF50;
+}
+.ecre
+{
+  display: flex;
+  flex-direction:row;
+  justify-content: center;
+  
+  align-items: baseline;
+}
+.button1:hover {
+  position: center;
+  width: 300px;
+  background-color: #4CAF50;
+  color: white;
+}
+
+.button3 {
+    display: flex;
+    align-items: center;
+    height: 30px;
+  background-color: white; 
+  color: black; 
+  border: 2px solid hsl(0, 100%, 36%);
+}
+
+.button3:hover {
+    display: flex;
+   align-items: center;
+    height: 30px;
+  background-color: red;
+  color: white;
+}
+.button2 {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #008CBA;
+}
+
+.button2:hover {
+  background-color: #008CBA;
+  color: white;
+}
+
+.image
+{ 
+  width: 100%;
+}
+.ajouter
+{ color: white;
+  
+}
+.buttonA {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.buttond {
+  background-color: red;
+  color: white;
+}
+footer
+{ display: flex;
+  background-color:#65403B;
+  justify-content: center;}
+  .fa fa-heart{
+    background-color: #f44336;
+  }
+  .color{
+      color:red;}
+
+      .articles {
+          
+          display: grid;
+          grid-template-columns: repeat(3, 1fr);
+      }
+      
+      .dar
+      {
+          width: 311px;
+          height: 280px;
+      }
+      .achat
+      {
+        display: table;
+      }
+      .totale
+      {
+          display: flex;
+          justify-content: flex-end;
+      }
+  
